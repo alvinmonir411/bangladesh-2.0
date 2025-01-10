@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: capitalize;
+  list-style: none;
+}
+body {
+  background-color: aliceblue;
+}
+/* fix width for all section */
+.width {
+  width: 90%;
+  margin: 0 auto;
+}
+/* for btn */
+.navber {
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: seagreen;
+}
+.navber button {
+  border: 1px solid black;
+  padding: 10px 20px;
+  background-color: white;
+}
+.navber h1 {
+  font-size: 34px;
+}
