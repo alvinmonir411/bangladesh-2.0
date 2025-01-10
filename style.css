@@ -214,3 +214,166 @@ h3 {
 .Satellite-img img {
   border-radius: 20px;
 }
+/* donat today section */
+.donat {
+  font-family: "Fira Sans", serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+}
+.donat h1 {
+  font-size: 40px;
+  margin-bottom: 1rem;
+}
+.donat p {
+  font-family: "Fira Sans", serif;
+  margin-bottom: 2rem;
+}
+.donat-btn {
+  padding: 24px 38px;
+  font-family: "Fira Sans", serif;
+  font-size: 24px;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: white;
+}
+
+.donat input {
+  text-align: center;
+  padding: 10px 12px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: "Fira Sans", serif;
+}
+.donat-btns .donat-btn:nth-child(2) {
+  background-color: #87d8b2;
+  color: white;
+  border: 1px solid #004a38;
+}
+.donat-now-btn {
+  padding: 14px 26px;
+  border: none;
+  background-color: seagreen;
+  color: white;
+  margin: 1rem;
+  margin-left: 45%;
+  border-radius: 8px;
+}
+
+/* subscribe section */
+.newslatter-sec {
+  background-color: #aee7cd;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  border-radius: 20px;
+}
+.newslatter-sec h1 {
+  font-size: 40px;
+  font-family: "Fira Sans", serif;
+  font-weight: 800px;
+}
+.newslatter-sec p {
+  font-family: "Fira Sans", serif;
+  margin: 1rem 0;
+  text-align: center;
+  font-size: 14px;
+}
+.newslatter-sec input {
+  padding: 14px 280px;
+  text-align: center;
+  border: 2px solid;
+  border-image: linear-gradient(45deg, #006a50, #00cc99) 1;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.newslatter-sec button {
+  padding: 16px 24px;
+  border: none;
+  background-color: seagreen;
+  color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* for footer */
+footer {
+  margin-top: 2rem;
+  font-family: "Fira Sans", serif;
+  text-align: center;
+}
+footer h1 {
+  font-size: 40px;
+}
+.icons {
+  margin-bottom: 1rem;
+}
+.icons img {
+  padding-right: 10px;
+  margin-top: 1rem;
+}
+/* opinioun section */
+.opinion-section {
+  width: 90%;
+  padding: 30px;
+  margin: 5rem auto;
+  border-radius: 14px;
+}
+
+.opinion-section h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 800;
+}
+
+table {
+  width: 100%;
+  background-color: #f9f9f9;
+  border-collapse: collapse;
+}
+
+thead th {
+  background-color: #c6e4d6;
+  color: #333;
+  text-align: left;
+  padding: 14px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+tbody td {
+  padding: 14px;
+  font-family: "Fira Sans", sans-serif;
+  border: 1px solid #ddd;
+}
+
+select {
+  padding: 8px 12px;
+  border: 1px solid #006a50;
+  border-radius: 5px;
+  background-color: #e6f7ec;
+  font-family: "Fira Sans", sans-serif;
+  color: #006a50;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button:hover {
+  background-color: white;
+  background: linear-gradient(45deg, #4caf50, #00897b, #3f51b5);
+  color: white;
+}
+img {
+  transition: transform 0.5s ease, filter 0.5s ease;
+}
+img:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
